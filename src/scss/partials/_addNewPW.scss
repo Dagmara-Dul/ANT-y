@@ -1,0 +1,32 @@
+.addNewPW {
+    // border:1px solid grey;
+    padding:0.5em;
+    // display:flex;
+    // flex-direction:column;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .allProjWidgDiv {
+        background-color: $color-main;
+        height: 2.5em;
+        width: 2.5em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5em;
+        span{
+            font-size: 24px;
+            text-decoration: none;
+            color:white;
+            
+        }
+    }
+    span{
+        font-size: 10px;
+        color: #A8A8A8;
+        font-weight: 100;
+        text-align:center;
+    }
+}
