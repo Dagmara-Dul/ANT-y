@@ -32,7 +32,6 @@ export default class AddTasks extends Component{
             taskTime: this.state.inputTaskTime,
             taskRealTime:[],
             idProject: idProject,
-            idTask: idTask,
         }
         // newArr.push(obj);
         // this.setState({
