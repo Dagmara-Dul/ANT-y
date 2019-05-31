@@ -4,6 +4,7 @@ import {
     HashRouter,
     Route,
     Link,
+    Redirect,
     Switch,
     NavLink,
   } from 'react-router-dom';
@@ -32,6 +33,7 @@ export default class AddTasks extends Component{
             taskTime: this.state.inputTaskTime,
             taskRealTime:[],
             idProject: idProject,
+            
         }
         // newArr.push(obj);
         // this.setState({
@@ -88,6 +90,8 @@ export default class AddTasks extends Component{
 
     handleStartTask = (e)=>{
         console.log("przekierowuję");
+        let idTask = this.props.match.params.id;
+        console.log(idTask);
     }
 
     render(){
