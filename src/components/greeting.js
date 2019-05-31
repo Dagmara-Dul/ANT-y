@@ -12,6 +12,8 @@ export default class Greeting extends Component {
            
             <div className="background">
             <div className="greetPackage">
+            <div></div>
+            <div className="leaves">
                 <div className="greetAndWidgets"> 
                     <div className='greetCompDiv'>
                         <h3 className="greetComp">cześć, co dziś robimy?</h3>
@@ -20,6 +22,7 @@ export default class Greeting extends Component {
                 </div>
             </div>
             <div className="antImageGreet"></div>
+            </div>
             </div>
         </>
         )

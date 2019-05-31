@@ -1,64 +1,103 @@
 {
-  "tasks": [
+  "projects": [
     {
-      "taskName": "cddd",
-      "taskPoints": "4",
-      "taskTime": "4",
+      "projectEName": "grafika",
+      "projectEDesc": "stworzenie litografii w warunkach domowych",
+      "projectETime": "6h",
+      "projectRealTime": [],
+      "id": 1
+    },
+    {
+      "projectEName": "logo",
+      "projectEDesc": "",
+      "projectETime": "",
+      "projectRealTime": [],
+      "id": 2
+    },
+    {
+      "projectEName": "makieta",
+      "projectEDesc": "",
+      "projectETime": "",
+      "projectRealTime": [],
+      "id": 3
+    },
+    {
+      "projectEName": "",
+      "projectEDesc": "",
+      "projectETime": "",
+      "projectRealTime": [],
+      "id": 4
+    },
+    {
+      "projectEName": "",
+      "projectEDesc": "",
+      "projectETime": "",
+      "projectRealTime": [],
+      "id": 5
+    },
+    {
+      "projectEName": "daga",
+      "projectEDesc": "prezka",
+      "projectETime": "3",
+      "projectRealTime": [],
       "id": 6
     },
     {
-      "taskName": "ddddddd",
-      "taskPoints": "",
-      "taskTime": "",
+      "projectEName": "nazwa",
+      "projectEDesc": "zadanie jets ",
+      "projectETime": "4",
+      "projectRealTime": [],
       "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "taskName": "przygotowanie materiałów",
+      "taskPoints": "23",
+      "taskTime": "2",
+      "taskRealTime": [],
+      "idProject": "undefined",
+      "id": 1
     },
     {
-      "taskName": "ddddddd",
-      "taskPoints": "",
-      "taskTime": "",
-      "id": 8
+      "taskName": "przygotowanie miejsca pracy",
+      "taskPoints": "1",
+      "taskTime": "1",
+      "taskRealTime": [],
+      "idProject": "undefined",
+      "id": 2
     },
     {
-      "taskName": "sss",
-      "taskPoints": "",
-      "taskTime": "",
-      "id": 9
+      "taskName": "pre",
+      "taskPoints": "2",
+      "taskTime": "3",
+      "taskRealTime": [],
+      "idProject": "6",
+      "id": 3
     },
     {
-      "taskName": "ssssssss",
-      "taskPoints": "",
-      "taskTime": "",
-      "id": 10
+      "taskName": "prettt",
+      "taskPoints": "1",
+      "taskTime": "4",
+      "taskRealTime": [],
+      "idProject": "6",
+      "id": 4
     },
     {
-      "taskName": "vvvvvvvvvvvv",
-      "taskPoints": "",
-      "taskTime": "",
-      "id": 11
+      "taskName": "jhjhj",
+      "taskPoints": "8",
+      "taskTime": "7",
+      "taskRealTime": [],
+      "idProject": "7",
+      "id": 5
     },
     {
-      "taskName": "ddddddddd",
-      "taskPoints": "",
-      "taskTime": "",
-      "id": 12
-    },
-    {
-      "taskName": "gfdfgdfg",
-      "taskPoints": "",
-      "taskTime": "",
-      "id": 13
-    },
-    {
-      "taskName": "fdsfds",
-      "taskPoints": "",
-      "taskTime": "",
-      "id": 14
-    },
-    {
-      "taskName": "dewde",
+      "taskName": "hola",
       "taskPoints": "3",
-      "taskTime": "",
-      "id": 15
+      "taskTime": "3",
+      "taskRealTime": [],
+      "idProject": "7",
+      "id": 6
     }
   ]
 }

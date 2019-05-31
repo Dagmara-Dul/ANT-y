@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 
 export default class NotFound extends Component {
     render() {
-      return <h3>404, ups! nie ma takiej strony</h3>;
+      return( 
+      <div className="errorBackground">
+        <h3>404, ups! nie ma takiej strony</h3>
+      </div>
+        );
     }
   }

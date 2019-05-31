@@ -10,34 +10,38 @@ import {
 
   export default class AddTasksInfo extends Component{
     render(){
+        const idProject = this.props.match.params.idProject;
         return(
            
             
                 <div className="addTasksInfo">
-                    <div>
-                        <h3>pamiętaj:</h3>
-                        <ol className="addTIinstructions">
-                            <li>Rozbij projekt na małe zadania</li>
-                            <li>W zalezności od trudności nadaj każdemu zadaniu punkty</li>
-                            <li>Wpisz zakładany czas realizacji</li>
+                    <div className="addTaskInfoPackage">
+                        <div className="remainderTaskInfo">
+                            <h3>pamiętaj:</h3>
+                            <ol className="addTIinstructions">
+                                <li>Rozbij projekt na małe zadania</li>
+                                <li>W zalezności od trudności nadaj każdemu zadaniu punkty</li>
+                                <li>Wpisz zakładany czas realizacji</li>
 
-                        </ol>
-
+                            </ol>
+                        </div>
+                    <div className="instructionTaskInfo">
                         <h3>jak działać</h3>
-                        <ul className="addTIinstructions">
-                            <li>zacznij od zadania, które sprawi Ci najwięcej frajdy</li>
-                            <li>ustaw poprzeczkę niżej niż jesteś w stanie zrobić</li>
-                            <li> upewnij się, że nic nie będzie Ci przeszkadzać - bądź poza zasięgiem telefonu i social media</li>
+                        {/* <ul className="addTIinstructions"> */}
+                            <span>zacznij od zadania, które sprawi Ci najwięcej frajdy</span>
+                            <span>ustaw poprzeczkę niżej niż jesteś w stanie zrobić</span>
+                            <span> upewnij się, że nic nie będzie Ci przeszkadzać - bądź poza zasięgiem telefonu i social media</span>
 
-                        </ul>
+                        {/* </ul> */}
+                        </div>
                     </div>
                     
                     <div className="addTasksInfoBtn">
                     <Link  style={{ textDecoration: 'none', color: 'white' }} to="/addproject">
-                        <button className="prev"><i className="fas fa-chevron-left"></i>wstecz  </button>
+                        <button className="prev"><i className="fas fa-chevron-left"></i>  </button>
                     </Link>
-                    <Link  style={{ textDecoration: 'none', color: 'white' }} to="/addtasks">
-                        <button className="next">dalej <i className="fas fa-chevron-right"></i> </button>
+                    <Link  style={{ textDecoration: 'none', color: 'white' }} to={`/addtasks/${idProject}`}>
+                        <button className="next"> <i className="fas fa-chevron-right"></i> </button>
                     </Link>
                     </div>
                     

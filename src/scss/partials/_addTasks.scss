@@ -1,0 +1,117 @@
+.formBackgroundTask {
+    width: 95vw;
+    height: 95vh;
+    background-color: $color-background-element;
+    margin: 2.5vh auto;
+    border-radius: 1.5em;
+
+    li{
+        margin-bottom:1em;
+    }
+
+    .taskFormPackage {
+        width: 95%;
+        min-height: 3em;
+        // border:1px solid red;
+        margin: auto;
+        margin-bottom: 1.2em;
+        padding-top: 2em;
+        border-top-left-radius: 1.5em;
+        border-top-right-radius: 1.5em;
+        box-shadow: 0px 49px 152px -29px rgba(0, 0, 0, 0.75);
+
+        .inputTaskForm {
+            background: transparent;
+            border: none;
+            border: 1px solid $color-main;
+            height: 1.5em;
+            
+
+            &:first-of-type {
+                width: 50%;
+            }
+
+            &:nth-of-type(2) {
+                width: 15%;
+            }
+
+            display: inline-block;
+            width: 20%;
+            border-color: $color-main;
+
+        }
+
+        button {
+            background-color: $color-main;
+            display: inline-block;
+            border: none;
+            color: white;
+            width: 1.5em;
+            height: 1.5em;
+            //border-radius:50%;
+            margin-left: .2em;
+        }
+    }
+
+    .listOfTasks {
+        padding-bottom: .8em;
+        padding-top: .4em;
+        width: 95%;
+        margin: auto;
+        // border:1px solid red;
+        background-color: $color-background-element;
+        border-bottom-left-radius: 1.5em;
+        border-bottom-right-radius: 1.5em;
+        box-shadow: 0px 49px 152px -29px rgba(0, 0, 0, 0.75);
+
+        button {
+            background-color: $color-main;
+            display: inline-block;
+            border: none;
+            color: white;
+            width: 2.1em;
+            height: 2.1em;
+            border-radius: 50%;
+            margin-left: .2em;
+
+        }
+    }
+
+    .buttonPackage {
+        min-width: 5em;
+        min-height: 2em;
+        margin:2em auto;
+        display:flex;
+        justify-content:center;
+        .buttonCustom {
+            // background-color: $color-main;
+            //     display: inline-block;
+            //     border: none;
+            //     color:white;
+            //     width:2.1em;
+            //     height:2.1em;
+            //     border-radius:50%;
+            //     margin-left:.2em;
+
+            background-color: $color-main;
+            color: $color-font;
+            display: inline-block;
+            border: none;
+            // padding: 1rem 2rem;
+            margin: 0;
+            text-decoration: none;
+            background: $color-main;
+            color: $color-font;
+            // font-family: sans-serif;
+            font-size: 1rem;
+            cursor: pointer;
+            text-align: center;
+            width: 2.5em;
+            height: 2.5em;
+            border-radius: 50%;
+
+            margin-left: .5em;
+            margin-right: .5em;
+        }
+    }
+}
