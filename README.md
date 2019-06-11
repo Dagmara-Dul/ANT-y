@@ -5,4 +5,4 @@ W ramach aplikacji możemy dodać/wybrać projekt, ten podzielić na mniejsze cz
 
 technologie i narzędzia: react, webpack, sass, json server.
 
-
+screeny aplikacji mozna zobaczyć w folderze "screens"
