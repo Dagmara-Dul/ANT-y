@@ -5,4 +5,4 @@ W ramach aplikacji możemy dodać/wybrać projekt, ten podzielić na mniejsze cz
 
 technologie i narzędzia: react, webpack, sass, json server.
 
-/home/daga/Obrazy/Ant-y images/1-start-app.png
+
