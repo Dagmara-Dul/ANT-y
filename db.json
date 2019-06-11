@@ -8,39 +8,11 @@
       "id": 1
     },
     {
-      "projectEName": "logo",
-      "projectEDesc": "",
-      "projectETime": "",
-      "projectRealTime": [],
-      "id": 2
-    },
-    {
       "projectEName": "makieta",
       "projectEDesc": "",
       "projectETime": "",
       "projectRealTime": [],
       "id": 3
-    },
-    {
-      "projectEName": "",
-      "projectEDesc": "",
-      "projectETime": "",
-      "projectRealTime": [],
-      "id": 4
-    },
-    {
-      "projectEName": "",
-      "projectEDesc": "",
-      "projectETime": "",
-      "projectRealTime": [],
-      "id": 5
-    },
-    {
-      "projectEName": "daga",
-      "projectEDesc": "prezka",
-      "projectETime": "3",
-      "projectRealTime": [],
-      "id": 6
     },
     {
       "projectEName": "nazwa",
@@ -50,11 +22,18 @@
       "id": 7
     },
     {
-      "projectEName": "jhg",
-      "projectEDesc": "ghj",
-      "projectETime": "ghj",
+      "projectEName": "",
+      "projectEDesc": "",
+      "projectETime": "",
       "projectRealTime": [],
       "id": 8
+    },
+    {
+      "projectEName": "running app",
+      "projectEDesc": "App for non-profesional runners to control week-trainings",
+      "projectETime": "20",
+      "projectRealTime": [],
+      "id": 9
     }
   ],
   "tasks": [
@@ -121,6 +100,22 @@
       "taskRealTime": [],
       "idProject": "8",
       "id": 8
+    },
+    {
+      "taskName": "project-planning",
+      "taskPoints": "12",
+      "taskTime": "10",
+      "taskRealTime": [],
+      "idProject": "9",
+      "id": 9
+    },
+    {
+      "taskName": "app-structure",
+      "taskPoints": "8",
+      "taskTime": "6",
+      "taskRealTime": [],
+      "idProject": "9",
+      "id": 10
     }
   ]
 }
