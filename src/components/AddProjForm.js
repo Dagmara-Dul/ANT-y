@@ -34,8 +34,8 @@ export default class AddProjectForm extends Component{
                    
                     projectRealTime:[],
                 }
-
-                fetch('http://localhost:3000/projects',{
+                fetch(`${window.location.protocol}//${window.location.hostname}:3000/projects` || `https://dashboard.heroku.com/apps/ant-y-serwer/projects`,{ //ZMIANA hosta - zczytywane będzie na bierząco z przeglądarki
+                // fetch('http://localhost:3000/projects',{
                     headers: {
                     // 'Accept': 'application/json', //to oznacza ze od serwera dostaje dane typu json
                      'Content-Type': 'application/json' //to musi byc gdy wysyłam do json server
@@ -63,14 +63,6 @@ export default class AddProjectForm extends Component{
     //     })
     // }
 
-    
-   
-
-
-
-
-    
-    
 
     // insertProjects = (projecty) =>{
     //     this.setState({projects:projecty})

@@ -34,6 +34,20 @@
       "projectETime": "20",
       "projectRealTime": [],
       "id": 9
+    },
+    {
+      "projectEName": "nazwa 1",
+      "projectEDesc": "opis",
+      "projectETime": "30 min",
+      "projectRealTime": [],
+      "id": 10
+    },
+    {
+      "projectEName": "nazwa projektu piatek",
+      "projectEDesc": "hjhjh",
+      "projectETime": "hjh",
+      "projectRealTime": [],
+      "id": 11
     }
   ],
   "tasks": [
@@ -116,6 +130,14 @@
       "taskRealTime": [],
       "idProject": "9",
       "id": 10
+    },
+    {
+      "taskName": "zadanie 1",
+      "taskPoints": "1",
+      "taskTime": "21",
+      "taskRealTime": [],
+      "idProject": "10",
+      "id": 11
     }
   ]
 }

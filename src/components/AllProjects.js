@@ -1,11 +1,7 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import {
-    HashRouter,
-    Route,
     Link,
-    Switch,
-    NavLink,
   } from 'react-router-dom';
 
   export default class ChooseProject extends Component{
@@ -17,7 +13,8 @@ import {
      }
 
      loadProjects = ()=>{
-        fetch('http://localhost:3000/projects')
+        fetch(`${window.location.protocol}//${window.location.hostname}:3000/projects` || `https://dashboard.heroku.com/apps/ant-y-serwer/projects`) 
+        // fetch('http://localhost:3000/projects')
         .then(response =>response.json())//odpowiedz zamieniam na dane typu json
         .then(resp =>{
             this.insertProjects(resp)
