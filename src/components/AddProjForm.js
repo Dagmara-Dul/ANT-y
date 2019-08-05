@@ -34,7 +34,8 @@ export default class AddProjectForm extends Component{
                    
                     projectRealTime:[],
                 }
-                fetch(`${window.location.protocol}//${window.location.hostname}:3000/projects` || `https://dashboard.heroku.com/apps/ant-y-serwer/projects`,{ //ZMIANA hosta - zczytywane będzie na bierząco z przeglądarki
+                fetch(`${process.env.REACT_APP_BACKEND_URL}/projects`,{
+                // fetch(`${window.location.protocol}//${window.location.hostname}:3000/projects` || `https://dashboard.heroku.com/apps/ant-y-serwer/projects`,{ //ZMIANA hosta - zczytywane będzie na bierząco z przeglądarki
                 // fetch('http://localhost:3000/projects',{
                     headers: {
                     // 'Accept': 'application/json', //to oznacza ze od serwera dostaje dane typu json

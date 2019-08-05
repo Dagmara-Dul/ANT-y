@@ -39,7 +39,9 @@ export default class AddTasks extends Component{
         // this.setState({
         //     tasks:newArr
         // });
-        fetch(`${window.location.protocol}//${window.location.hostname}:3000/tasks` || `https://dashboard.heroku.com/apps/ant-y-serwer/tasks`,{ 
+
+        fetch(`${process.env.REACT_APP_BACKEND_URL}/tasks`,{
+        // fetch(`${window.location.protocol}//${window.location.hostname}:3000/tasks` || `https://dashboard.heroku.com/apps/ant-y-serwer/tasks`,{ 
         // fetch(`http://localhost:3000/tasks`,{
             headers: {
                 // 'Accept': 'application/json', //to oznacza ze od serwera dostaje dane typu json
@@ -55,7 +57,9 @@ export default class AddTasks extends Component{
     // /**jestem tutaj! ładowanie danych */
     loadTasks = ()=>{
         const idProject = this.props.match.params.idProject;
-        fetch(`${window.location.protocol}//${window.location.hostname}:3000/tasks?idProject=${idProject}`|| `https://dashboard.heroku.com/apps/ant-y-serwer/tasks?idProject=${idProject}`)
+        
+        fetch(`${process.env.REACT_APP_BACKEND_URL}/tasks?idProject=${idProject}`)
+        // fetch(`${window.location.protocol}//${window.location.hostname}:3000/tasks?idProject=${idProject}`|| `https://dashboard.heroku.com/apps/ant-y-serwer/tasks?idProject=${idProject}`)
         // fetch(`http://localhost:3000/tasks?idProject=${idProject}`)//wszystkie taski dopasowane do projektu
         .then(response =>response.json())//odpowiedz zamieniam na dane typu json
         .then(resp =>{
